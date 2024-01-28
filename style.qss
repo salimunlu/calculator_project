@@ -1,0 +1,86 @@
+/* Base button styling */
+QPushButton {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50; /* Dark text for light theme for better readability */
+    background-color: #ecf0f1; /* Soft color for light theme */
+    border: 2px solid #bdc3c7; /* Adding borders for the light theme */
+    border-radius: 5px; /* Slightly rounded corners for a modern look */
+    padding: 10px;
+    min-width: 70px;
+    min-height: 40px;
+    margin: 5px; /* Space between buttons */
+}
+
+/* Hover effect for buttons */
+QPushButton:hover {
+    background-color: #bdc3c7; /* Darker shade on hover for light theme */
+}
+
+/* Pressed effect for buttons */
+QPushButton:pressed {
+    background-color: #313ff7; /* Even darker when pressed for tactile feedback */
+    color: #f2f7e6;
+}
+
+/* Operation button styling (like +, -, x, ÷) */
+QPushButton.operation {
+    color: white;
+    background-color: #3498db; /* Blue for operation buttons */
+    border: none; /* Removing borders for a flat design on operation buttons */
+}
+
+/* Function button styling (like CE, C) */
+QPushButton.function {
+    color: white;
+    background-color: #e74c3c; /* Red for function buttons */
+    border: none; /* Removing borders for a flat design on function buttons */
+}
+
+/* Equals button styling */
+QPushButton#equalsButton {
+    color: white;
+    background-color: #2ecc71; /* Green for the equals button */
+    border: none; /* Removing borders for a flat design on the equals button */
+}
+
+/* Result display styling */
+QLineEdit {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    border: 2px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Dark Theme Styles */
+/* Apply dark theme styles based on the parent container's objectName */
+QMainWindow#dark QPushButton, QMainWindow#dark QLineEdit {
+    color: #ecf0f1; /* Light text for dark theme */
+    background-color: #34495e; /* Dark background for elements */
+    border: none; /* No borders for dark theme for a sleek look */
+}
+
+QMainWindow#dark QPushButton:hover {
+    background-color: #4e5f70; /* Lighter on hover for dark theme */
+}
+
+QMainWindow#dark QPushButton:pressed {
+    background-color: #5c6d7e; /* Lightened color when pressed */
+}
+
+QMainWindow#dark QPushButton.operation {
+    background-color: #2980b9; /* Different blue shade for operation buttons in dark theme */
+}
+
+QMainWindow#dark QPushButton.function {
+    background-color: #c0392b; /* Different red shade for function buttons in dark theme */
+}
+
+QMainWindow#dark QPushButton#equalsButton {
+    background-color: #27ae60; /* Different green shade for the equals button in dark theme */
+}
+
