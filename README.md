@@ -1,6 +1,6 @@
 # Hesap Makinesi Uygulaması
 
-Bu, PyQt6 kullanılarak geliştirilmiş basit bir hesap makinesi uygulamasıdır. Uygulama, temel aritmetik işlemleri gerçekleştirebilir ve kullanıcı dostu bir arayüze sahiptir.
+Bu uygulama, PyQt6 kullanılarak geliştirilmiş basit bir hesap makinesi uygulamasıdır. Uygulama, temel aritmetik işlemleri gerçekleştirebilir ve kullanıcı dostu bir arayüze sahiptir.
 
 ## Kullanılan PyQt6 Özellikleri
 
